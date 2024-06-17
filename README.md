@@ -48,12 +48,14 @@ Deve-se garantir que as imagens cubram a variação de tamanho, orientação e o
 
     - Siga as instruções no notebook para configurar e iniciar o treinamento.
     - Utilize o link de exportação gerado pelo Roboflow para carregar os dados.
-    - Para fazer o downloado da pasta de treinamento da sua rede neural, você deve utilizar o seguinte código no google Collab(utilizando como referencia o treinamento de uma yoloV5): ```sh [from google.colab import files
- import shutil
+    - Para fazer o downloado da pasta de treinamento da sua rede neural, você deve utilizar o seguinte código no google Collab(utilizando como referencia o treinamento de uma yoloV5):
+```
+from google.colab import files
+import shutil
 Compactar a pasta "yolov5" em um arquivo zip
 shutil.make_archive('/content/yolov5', 'zip', '/content/yolov5')
 Baixar o arquivo zip para a sua máquina local
-files.download('/content/yolov5.zip')]
+files.download('/content/yolov5.zip')
 ```
 
 
