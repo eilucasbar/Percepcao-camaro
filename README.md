@@ -27,7 +27,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
     ```sh
     python -m venv env
     source env/bin/activate  # No Windows use `env\Scripts\activate`
-    			      # No Linux utilize `env/bin/activate`
+    			      
     ```
 
 ## Uso
