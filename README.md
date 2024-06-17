@@ -9,7 +9,6 @@ Bem-vindo ao projeto de treinamento de redes neurais YOLOv5 e YOLOv8. Este repos
 Antes de começar, certifique-se de ter os seguintes itens instalados:
 
 - Python 3.8 ou superior
-- Jupyter Notebook
 - Git
 - Conta no Google Colab
 - Conta na plataforma Roboflow
